@@ -163,7 +163,9 @@
             "storageUri": "[parameters('bacpacUrl')]",
             "administratorLogin": "[parameters('SQLAdminLogin')]",
             "administratorLoginPassword": "[parameters('SQLAdminLoginPassword')]",
-            "operationMode": "Import"
+            "operationMode": "Import",
+            "publicNetworkAccess": "Disabled"
+
           }
         }
       ]
